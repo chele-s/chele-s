@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E97F7&center=true&vCenter=true&width=600&lines=Low-Level+Hardware+Specialist;Industrial+Automation+Engineer;AI+%26+Computer+Vision+Developer;Raspberry+Pi+5+Expert;From+El+Salvador+%F0%9F%87%B8%F0%9F%87%BB" alt="Typing SVG" />
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gabriel-calderón-61b308214)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-calderón-61b308214)
 [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chele-s)
 
@@ -160,12 +160,11 @@ class SmartPositionDetector:
 
 <div align="center">
 
-<a href="https://github.com/chele-s/ctsTraffic">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=chele-s&repo=ctsTraffic&theme=tokyonight&hide_border=true" />
-</a>
-<a href="https://github.com/chele-s/MauiScientificCalculator">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=chele-s&repo=MauiScientificCalculator&theme=tokyonight&hide_border=true" />
-</a>
+### 🔧 More Coming Soon!
+
+Exploring new projects in **embedded systems**, **AI**, and **industrial automation**.
+
+-->
 
 </div>
 
@@ -270,7 +269,7 @@ class SmartPositionDetector:
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Calderón-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gabriel-calderón-61b308214)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Calderón-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-calderón-61b308214)
 [![Email](https://img.shields.io/badge/Email-alvanezg1@gmail%40.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-chele-s-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chele-s)
 [![Discord](https://img.shields.io/badge/Discord-Connect-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/WXq9rx7P)
