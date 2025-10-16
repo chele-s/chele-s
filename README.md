@@ -271,7 +271,7 @@ class SmartPositionDetector:
 <div align="center">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Calderón-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/gabriel-calderón-61b308214)
-[![Email](https://img.shields.io/badge/Email-your.email%40example.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
+[![Email](https://img.shields.io/badge/Email-alvanezg1@gmail%40.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-chele-s-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chele-s)
 [![Discord](https://img.shields.io/badge/Discord-Connect-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/WXq9rx7P)
 
