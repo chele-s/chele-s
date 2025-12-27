@@ -1,293 +1,424 @@
 <div align="center">
 
-# Gabriel Calderon
+<!-- Animated Header with Gradient Effect -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=200&section=header&text=Gabriel%20Calderón&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Embedded%20Systems%20%7C%20Computer%20Vision%20%7C%20Reinforcement%20Learning&descAlignY=55&descSize=18"/>
 
-**Embedded Systems Engineer | Computer Vision | Reinforcement Learning**
+<!-- Dynamic Tech Animation -->
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2500&pause=800&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=900&height=100&lines=High-Performance+C%2B%2B17+%7C+Real-Time+Physics+Simulation+%7C+SIMD+Optimization;Deep+Reinforcement+Learning+%7C+TD3%2FDDPG+%7C+Curriculum+Learning;Transformer-Based+Detection+%7C+RF-DETR+%7C+Extended+Kalman+Filtering" alt="Typing SVG" />
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=2E97F7&center=true&vCenter=true&width=700&lines=High-Performance+C%2B%2B+%7C+Real-Time+Systems;Reinforcement+Learning+%7C+Drone+Simulation;Computer+Vision+%7C+Object+Detection+%26+Tracking;Embedded+AI+%7C+Edge+Computing" alt="Typing SVG" />
+<!-- Professional Social Links with Animated Hover -->
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-calderón-61b308214)
-[![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chele-s)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/gabriel-calderón-61b308214)](https://www.linkedin.com/in/gabriel-calderón-61b308214)
+[![Email](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chele-s)
+[![Discord](https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/WXq9rx7P)
+
+<br/>
+
+<!-- Animated Skill Icons -->
+<p>
+<img src="https://skillicons.dev/icons?i=cpp,python,pytorch,cuda,opencv,docker,linux,git,cmake,raspberrypi&perline=10&theme=dark" alt="Skills"/>
+</p>
 
 </div>
 
----
+<br/>
 
-## About Me
+<!-- Section Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-I am a **Systems Engineer** specializing in the intersection of **high-performance computing**, **computer vision**, and **reinforcement learning**. My work focuses on developing production-grade systems that bridge low-level hardware control with state-of-the-art AI algorithms.
+## About
 
-**Core Competencies:**
-- High-fidelity physics simulation with C++17 and Python interoperability via pybind11
-- Deep Reinforcement Learning architectures (TD3, DDPG) with prioritized experience replay
-- Real-time object detection using Transformer-based models (RF-DETR, DETR)
-- Multi-object tracking with Extended Kalman Filters and probabilistic data association
-- Embedded systems development on Raspberry Pi and custom hardware platforms
-- GPU-accelerated inference pipelines with TensorRT and ONNX optimization
-
----
-
-## Featured Projects
-
-### Helix Drone — High-Fidelity Quadrotor Simulation
-
-[![C++](https://img.shields.io/badge/C++-17-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)](https://github.com/chele-s)
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/chele-s)
-[![PyTorch](https://img.shields.io/badge/PyTorch-2.0-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)](https://github.com/chele-s)
-[![pybind11](https://img.shields.io/badge/pybind11-Bindings-blue?style=flat-square)](https://github.com/chele-s)
-
-A research-grade quadrotor simulation platform designed for training autonomous flight controllers using deep reinforcement learning. The system combines a high-performance C++ physics core with a Python-based training pipeline.
+I architect **production-grade systems** at the intersection of **low-level hardware control** and **state-of-the-art machine learning**. My expertise spans from optimizing C++ physics engines with SIMD instructions to deploying Transformer-based detection models on edge devices.
 
 <table>
 <tr>
 <td width="50%">
 
-#### Physics Engine (C++)
+### Core Engineering
 
-- **6-DOF Rigid Body Dynamics**: Full Newton-Euler equations with quaternion-based attitude representation
-- **Advanced Numerical Integration**: Runge-Kutta 4th order (RK4), RK45 adaptive step-size, Velocity Verlet
-- **Rotor Aerodynamics**: Blade Element Theory with momentum theory coupling
-- **Ground Effect Modeling**: Height-dependent thrust augmentation
-- **Motor Dynamics**: First-order lag with ESC response characteristics, thermal modeling
-- **Battery Simulation**: State-of-charge curves, voltage sag under load
-- **Dryden Wind Model**: MIL-SPEC turbulence with configurable intensity
+- **C++17/20** with template metaprogramming and SIMD vectorization
+- **pybind11** for seamless C++/Python interoperability
+- **Numerical Methods**: RK4, RK45 adaptive integration, quaternion kinematics
+- **Memory-Aligned Structures** with cache-optimized data layouts
+- **Real-Time Systems** with deterministic timing guarantees
 
 </td>
 <td width="50%">
 
-#### Training Pipeline (Python)
+### AI & Machine Learning
 
-- **TD3/DDPG Agents**: Twin Delayed Deep Deterministic Policy Gradient implementation
-- **Prioritized Experience Replay**: Sum-tree based sampling with importance weighting
-- **Gymnasium Environment**: Configurable task types (hover, waypoint, trajectory tracking)
-- **Domain Randomization**: Mass, inertia, motor constants, wind conditions
-- **Curriculum Learning**: Progressive difficulty scaling for stable convergence
-- **Vectorized Simulation**: Parallel environment execution for sample efficiency
+- **Deep RL**: TD3, DDPG with Prioritized Experience Replay
+- **Detection**: RF-DETR, DETR, YOLOv8 with TensorRT acceleration
+- **Tracking**: Extended Kalman Filters, Mahalanobis gating
+- **Optimization**: ONNX, TensorRT, FP16/INT8 quantization
+- **Edge AI**: Raspberry Pi deployment, embedded inference
 
 </td>
 </tr>
 </table>
 
-**Technical Highlights:**
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## Featured Projects
+
+<br/>
+
+<!-- Project 1: Helix Drone -->
+<div align="center">
+<img src="https://img.shields.io/badge/HELIX_DRONE-Research_Grade_Quadrotor_Simulation-1a1a2e?style=for-the-badge&labelColor=0d1117"/>
+</div>
+
+<br/>
+
+<table>
+<tr>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" width="48" height="48" alt="C++"/>
+<br><strong>C++17</strong>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
+<br><strong>Python</strong>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch"/>
+<br><strong>PyTorch</strong>
+</td>
+<td align="center" width="120">
+<img src="https://skillicons.dev/icons?i=cmake" width="48" height="48" alt="CMake"/>
+<br><strong>CMake</strong>
+</td>
+</tr>
+</table>
+
+A research-grade quadrotor simulation platform engineered for training autonomous flight controllers via deep reinforcement learning. The architecture couples a **high-performance C++ physics core** with a **modular Python training pipeline**.
+
+<details>
+<summary><b>Physics Engine Architecture (C++)</b></summary>
+<br/>
+
+| Module | Implementation |
+|:-------|:---------------|
+| **Rigid Body Dynamics** | Full 6-DOF Newton-Euler equations with quaternion normalization |
+| **Numerical Integration** | RK4, RK45 adaptive step-size, Velocity Verlet with sub-stepping |
+| **Rotor Aerodynamics** | Blade Element Theory coupled with momentum theory |
+| **Ground Effect** | Height-dependent thrust augmentation model |
+| **Motor Dynamics** | First-order lag with ESC response, thermal derating curves |
+| **Battery Model** | State-of-charge curves, internal resistance, voltage sag |
+| **Wind Turbulence** | MIL-SPEC Dryden model with configurable intensity scales |
 
 ```cpp
-// High-performance physics with SIMD optimization and 64-byte alignment
 class alignas(64) Quadrotor {
     void stepWithSubStepping(const MotorCommand& command, double agentDt);
     void stepAdaptive(const MotorCommand& command, double& dt);
     
-    // Blade Element Theory thrust computation
     Vec3 computeTotalThrust() const noexcept;
     Vec3 computeAerodynamicForces(const Vec3& velocityBody) const noexcept;
     Vec3 computeGyroscopicTorque() const noexcept;
+    Mat3 computeInertiaInverse() const noexcept;
 };
 ```
 
----
+</details>
 
-### GeoGauge — AI-Powered Road Damage Assessment
+<details>
+<summary><b>Training Pipeline Architecture (Python)</b></summary>
+<br/>
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/chele-s)
-[![YOLO](https://img.shields.io/badge/YOLOv8-Detection-00FFFF?style=flat-square)](https://github.com/chele-s)
-[![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)](https://github.com/chele-s)
+| Component | Description |
+|:----------|:------------|
+| **TD3 Agent** | Twin Delayed DDPG with target policy smoothing and delayed updates |
+| **Experience Replay** | Sum-tree based prioritized sampling with importance weighting |
+| **Environment** | Gymnasium-compliant with configurable task modes |
+| **Domain Randomization** | Stochastic variation of mass, inertia, motor constants |
+| **Curriculum Learning** | Progressive difficulty scaling for stable policy convergence |
+| **Vectorization** | Parallel environment execution via SubprocVecEnv |
 
-An end-to-end system for automated pothole detection, depth estimation, and severity classification using monocular images. Designed for municipal infrastructure assessment and maintenance prioritization.
+```python
+class TD3Agent:
+    def select_action(self, state: np.ndarray, exploration: bool = True) -> np.ndarray:
+        with torch.no_grad():
+            action = self.actor(state)
+            if exploration:
+                action += self.exploration_noise.sample()
+        return action.clamp(-1.0, 1.0).cpu().numpy()
+```
+
+</details>
+
+<br/>
+
+<!-- Section Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- Project 2: GeoGauge -->
+<div align="center">
+<img src="https://img.shields.io/badge/GEOGAUGE-AI_Road_Damage_Assessment-1a1a2e?style=for-the-badge&labelColor=0d1117"/>
+</div>
+
+<br/>
 
 <table>
 <tr>
-<td width="50%">
-
-#### Detection and Analysis
-
-- **YOLOv8 Object Detection**: Fine-tuned for road damage classification
-- **Depth Anything v2**: State-of-the-art monocular depth estimation
-- **Multi-Backend Support**: Dynamic backend selection (Depth Anything v1/v2)
-- **RANSAC Plane Fitting**: Ground plane estimation for metric depth calibration
-- **Guided Filtering**: Edge-preserving depth map refinement
-
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
+<br><strong>Python</strong>
 </td>
-<td width="50%">
-
-#### Severity Classification
-
-- **Dimensional Analysis**: Length, width, and depth measurement from single images
-- **Multi-Factor Scoring**: Combines geometric features with confidence maps
-- **Priority Ranking**: Automated maintenance prioritization
-- **Report Generation**: Detailed analysis with visualization overlays
-
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch"/>
+<br><strong>PyTorch</strong>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV"/>
+<br><strong>OpenCV</strong>
+</td>
+<td align="center" width="120">
+<img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="48" height="48" alt="Streamlit"/>
+<br><strong>Streamlit</strong>
 </td>
 </tr>
 </table>
 
-**Architecture:**
+An end-to-end pipeline for automated pothole detection, metric depth estimation, and severity classification from monocular imagery. Designed for municipal infrastructure assessment with priority-based maintenance scheduling.
+
+<details>
+<summary><b>Detection and Depth Pipeline</b></summary>
+<br/>
+
+| Stage | Technology |
+|:------|:-----------|
+| **Object Detection** | YOLOv8 fine-tuned for multi-class road damage |
+| **Depth Estimation** | Depth Anything v2 for dense monocular depth |
+| **Plane Fitting** | RANSAC-based ground plane estimation |
+| **Depth Refinement** | Guided filtering for edge-preserving smoothing |
+| **Metric Calibration** | Camera intrinsics for physical measurements |
 
 ```python
 class PotholeAnalyzer:
     def analyze_image(self, image_np_bgr: np.ndarray) -> List[Dict]:
-        # Detection → Depth Estimation → Calibration → Classification
         detections = self._detect_potholes(image_rgb)
         depth_map = self._get_depth_map(image_rgb)
-        results = self._process_detections(detections, depth_map, image_rgb)
-        return results
+        ground_plane = self._fit_ground_plane(depth_map)
+        return self._compute_severity_metrics(detections, depth_map, ground_plane)
 ```
 
----
+</details>
 
-### LiveCam AI — Real-Time Ball Detection and Tracking
+<details>
+<summary><b>Severity Classification System</b></summary>
+<br/>
 
-[![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)](https://github.com/chele-s)
-[![RF-DETR](https://img.shields.io/badge/RF--DETR-Transformer-blueviolet?style=flat-square)](https://github.com/chele-s)
-[![OpenCV](https://img.shields.io/badge/OpenCV-Tracking-5C3EE8?style=flat-square&logo=opencv&logoColor=white)](https://github.com/chele-s)
+| Feature | Method |
+|:--------|:-------|
+| **Dimensional Analysis** | Metric extraction of length, width, depth |
+| **Confidence Mapping** | Detection probability weighting |
+| **Multi-Factor Scoring** | Geometric + contextual features fusion |
+| **Priority Ranking** | Automated maintenance queue generation |
 
-A low-latency ball tracking system for sports analytics, combining Transformer-based detection with probabilistic state estimation for robust tracking under occlusion and rapid motion.
+</details>
+
+<br/>
+
+<!-- Section Divider -->
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+<!-- Project 3: LiveCam AI -->
+<div align="center">
+<img src="https://img.shields.io/badge/LIVECAM_AI-Real_Time_Ball_Tracking-1a1a2e?style=for-the-badge&labelColor=0d1117"/>
+</div>
+
+<br/>
 
 <table>
 <tr>
-<td width="50%">
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="48" height="48" alt="Python"/>
+<br><strong>Python</strong>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg" width="48" height="48" alt="PyTorch"/>
+<br><strong>PyTorch</strong>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/opencv/opencv-original.svg" width="48" height="48" alt="OpenCV"/>
+<br><strong>OpenCV</strong>
+</td>
+<td align="center" width="120">
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="48" height="48" alt="NumPy"/>
+<br><strong>NumPy</strong>
+</td>
+</tr>
+</table>
 
-#### Detection Module
+A low-latency ball tracking system for sports analytics combining **Transformer-based detection** with **probabilistic state estimation** for robust tracking under occlusion, motion blur, and rapid direction changes.
 
-- **RF-DETR Backbone**: Region-focused Detection Transformer
-- **Multi-Scale Inference**: Adaptive resolution for varying ball sizes
-- **FP16 Inference**: Half-precision optimization for GPU acceleration
-- **TensorRT Support**: Optional deployment-time optimization
-- **Temporal Filtering**: Detection history for confidence smoothing
+<details>
+<summary><b>Detection Architecture</b></summary>
+<br/>
+
+| Component | Implementation |
+|:----------|:---------------|
+| **Backbone** | RF-DETR (Region-Focused Detection Transformer) |
+| **Multi-Scale** | Adaptive resolution for varying object sizes |
+| **Precision** | FP16 inference with TensorRT optimization |
+| **Temporal Fusion** | Detection history for confidence smoothing |
+| **ROI Processing** | Dynamic region-of-interest for computational efficiency |
+
+</details>
+
+<details>
+<summary><b>Tracking Architecture</b></summary>
+<br/>
+
+| Component | Implementation |
+|:----------|:---------------|
+| **State Estimator** | Extended Kalman Filter with 6-state model |
+| **Gating** | Mahalanobis distance for statistical outlier rejection |
+| **Noise Adaptation** | Dynamic process/measurement noise tuning |
+| **Smoothing** | One-Euro Filter with adaptive cutoff frequency |
+| **Hypothesis Management** | Multi-hypothesis tracking for ambiguity resolution |
+
+```python
+class ExtendedKalmanFilter:
+    def predict(self, dt: float) -> np.ndarray:
+        self._update_transition_matrix(dt)
+        self.x = self.F @ self.x
+        self.P = self.F @ self.P @ self.F.T + self.Q
+        return self.x[:2]
+
+    def update(self, z: np.ndarray, confidence: float) -> np.ndarray:
+        d = mahalanobis_distance(z, self.x[:2], self.P[:2, :2])
+        if d < self.gate_threshold:
+            self._kalman_update(z, confidence)
+        return self.x[:2]
+```
+
+</details>
+
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## Technical Expertise
+
+<div align="center">
+
+<br/>
+
+<!-- Animated Technology Categories -->
+<table>
+<tr>
+<td align="center" width="50%">
+
+### Languages & Core
+
+<br/>
+
+![C++](https://img.shields.io/badge/C++-17/20-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=flat-square&logo=python&logoColor=white)
+![CUDA](https://img.shields.io/badge/CUDA-12.x-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
 
 </td>
-<td width="50%">
+<td align="center" width="50%">
 
-#### Tracking Module
+### Machine Learning
 
-- **Extended Kalman Filter**: 6-state model (position, velocity, acceleration)
-- **Mahalanobis Gating**: Statistical outlier rejection
-- **Adaptive Noise Estimation**: Dynamic process/measurement noise tuning
-- **One-Euro Filter**: Jitter reduction with adaptive cutoff frequency
-- **Hypothesis Management**: Multi-hypothesis tracking for ambiguous detections
+<br/>
+
+![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![ONNX](https://img.shields.io/badge/ONNX-005CED?style=flat-square&logo=onnx&logoColor=white)
+![Gymnasium](https://img.shields.io/badge/Gymnasium-0081A5?style=flat-square)
+
+</td>
+</tr>
+<tr>
+<td align="center" width="50%">
+
+### Computer Vision
+
+<br/>
+
+![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![Ultralytics](https://img.shields.io/badge/Ultralytics-00FFFF?style=flat-square)
+![Supervision](https://img.shields.io/badge/Roboflow-8338EC?style=flat-square)
+
+</td>
+<td align="center" width="50%">
+
+### Infrastructure
+
+<br/>
+
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![RaspberryPi](https://img.shields.io/badge/RPi-A22846?style=flat-square&logo=raspberrypi&logoColor=white)
 
 </td>
 </tr>
 </table>
 
-**Tracking Algorithm:**
-
-```python
-class ExtendedKalmanFilter:
-    def predict(self, dt: Optional[float] = None) -> np.ndarray:
-        # State transition with constant acceleration model
-        # Dynamic F matrix construction based on actual dt
-        
-    def update(self, z: np.ndarray) -> np.ndarray:
-        # Mahalanobis distance gating
-        # Adaptive measurement noise based on detection confidence
-```
-
----
-
-## Technical Stack
-
-<div align="center">
-
-### Languages and Core Technologies
-
-![C++](https://img.shields.io/badge/C++-17/20-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-12.x-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![CMake](https://img.shields.io/badge/CMake-Build-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
-
-### Machine Learning and AI
-
-![PyTorch](https://img.shields.io/badge/PyTorch-2.x-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![ONNX](https://img.shields.io/badge/ONNX-Runtime-005CED?style=for-the-badge&logo=onnx&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-Inference-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Gymnasium](https://img.shields.io/badge/Gymnasium-RL-0081A5?style=for-the-badge)
-
-### Computer Vision
-
-![OpenCV](https://img.shields.io/badge/OpenCV-4.x-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![Transformers](https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![Ultralytics](https://img.shields.io/badge/Ultralytics-YOLO-00FFFF?style=for-the-badge)
-![Supervision](https://img.shields.io/badge/Roboflow-Supervision-8338EC?style=for-the-badge)
-
-### Embedded Systems and Hardware
-
-![Raspberry Pi](https://img.shields.io/badge/Raspberry_Pi_5-A22846?style=for-the-badge&logo=raspberry-pi&logoColor=white)
-![GPIO](https://img.shields.io/badge/GPIO-Hardware_PWM-8B0000?style=for-the-badge)
-![pybind11](https://img.shields.io/badge/pybind11-C++/Python-blue?style=for-the-badge)
-
-### DevOps and Tools
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
-
 </div>
 
----
+<br/>
 
-## Specializations
+<!-- Domain Expertise Matrix -->
+<div align="center">
 
 | Domain | Technologies | Applications |
-|:-------|:-------------|:-------------|
-| **Physics Simulation** | C++17, SIMD, Numerical Integration | Quadrotor dynamics, rigid body mechanics |
-| **Reinforcement Learning** | TD3, DDPG, PPO, Gymnasium | Autonomous control, policy optimization |
-| **Object Detection** | RF-DETR, YOLOv8, DETR | Sports analytics, infrastructure inspection |
-| **State Estimation** | Kalman Filters, EKF, Particle Filters | Multi-object tracking, sensor fusion |
-| **Depth Estimation** | Monocular depth, Stereo vision | 3D reconstruction, measurement systems |
-| **Embedded AI** | TensorRT, ONNX, Raspberry Pi | Edge deployment, real-time inference |
-
----
-
-## GitHub Analytics
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=chele-s&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" height="170" alt="GitHub Stats" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=chele-s&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="170" alt="Top Languages" />
+|:------:|:-------------|:-------------|
+| **Physics Simulation** | C++17, SIMD, RK4/RK45, Quaternions | Quadrotor dynamics, rigid body mechanics |
+| **Reinforcement Learning** | TD3, DDPG, PER, Curriculum Learning | Autonomous control, policy optimization |
+| **Object Detection** | RF-DETR, YOLOv8, DETR, Vision Transformers | Sports analytics, infrastructure inspection |
+| **State Estimation** | EKF, Mahalanobis Gating, One-Euro Filter | Multi-object tracking, sensor fusion |
+| **Depth Estimation** | Monocular depth, RANSAC, Guided Filtering | 3D reconstruction, metric measurement |
+| **Edge Deployment** | TensorRT, ONNX, FP16/INT8, Raspberry Pi | Real-time inference, embedded AI |
 
 </div>
 
+<br/>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+
+## Analytics
+
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chele-s&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<br/>
+
+<!-- GitHub Stats Grid -->
+<img src="https://github-readme-stats.vercel.app/api?username=chele-s&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" height="180" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=chele-s&layout=compact&theme=github_dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+
+<br/><br/>
+
+<!-- Streak Stats -->
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=chele-s&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+
+<br/><br/>
+
+<!-- Trophy Collection -->
+<img src="https://github-profile-trophy.vercel.app/?username=chele-s&theme=onestar&no-frame=true&no-bg=true&row=1&column=7&margin-w=15" alt="Trophies"/>
+
+<br/><br/>
+
+<!-- Activity Graph -->
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=chele-s&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb" width="95%" alt="Activity Graph"/>
 
 </div>
 
-<div align="center">
+<br/>
 
-![](https://github-profile-trophy.vercel.app/?username=chele-s&theme=tokyonight&no-frame=true&no-bg=true&row=1&column=7)
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
-</div>
-
----
-
-## Contribution Activity
+## Contribution Graph
 
 <div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=chele-s&theme=tokyo-night&hide_border=true&custom_title=Contribution%20Graph" alt="Activity Graph" />
-
-</div>
-
----
-
-## Connect
-
-<div align="center">
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Gabriel_Calderon-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-calderón-61b308214)
-[![Email](https://img.shields.io/badge/Email-alvanezg1@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:alvanezg1@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-chele--s-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chele-s)
-[![Discord](https://img.shields.io/badge/Discord-Connect-7289DA?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/WXq9rx7P)
-
-</div>
-
----
-
-<div align="center">
-
-### Contribution Graph
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chele-s/chele-s/output/snake-dark.svg" />
@@ -297,14 +428,23 @@ class ExtendedKalmanFilter:
 
 </div>
 
----
+<br/>
+
+<!-- Animated Footer -->
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1a2e,100:16213e&height=120&section=footer"/>
 
 <div align="center">
 
-**"Bridging the physical and digital worlds through high-performance simulation and intelligent systems."**
+<br/>
 
-![Visitor Count](https://profile-counter.glitch.me/chele-s/count.svg)
+**Building intelligent systems that bridge physical reality and computational intelligence.**
 
-<sub>El Salvador | Systems Engineer | Open to Collaboration</sub>
+<br/>
+
+![Visitor Count](https://komarev.com/ghpvc/?username=chele-s&style=for-the-badge&color=1f6feb&label=Profile+Views)
+
+<br/>
+
+<sub><b>El Salvador</b> • Systems Engineer • Open to Collaboration</sub>
 
 </div>
