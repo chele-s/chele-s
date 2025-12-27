@@ -175,7 +175,7 @@ class TD3Agent:
 <br><strong>OpenCV</strong>
 </td>
 <td align="center" width="120">
-<img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="48" height="48" alt="Streamlit"/>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" width="100" height="32" alt="Streamlit"/>
 <br><strong>Streamlit</strong>
 </td>
 </tr>
@@ -391,24 +391,34 @@ class ExtendedKalmanFilter:
 
 <br/>
 
-<!-- GitHub Stats Grid -->
-<img src="https://github-readme-stats.vercel.app/api?username=chele-s&show_icons=true&theme=github_dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" height="180" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=chele-s&layout=compact&theme=github_dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+<!-- GitHub Stats Grid - Using stable anuraghazra vercel instance -->
+<a href="https://github.com/chele-s">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chele-s&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" height="180" alt="GitHub Stats"/>
+</a>
+<a href="https://github.com/chele-s">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=chele-s&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+</a>
 
 <br/><br/>
 
-<!-- Streak Stats -->
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=chele-s&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff" alt="GitHub Streak"/>
+<!-- Streak Stats - Using streak-stats.demolab.com which is more reliable -->
+<a href="https://github.com/chele-s">
+  <img src="https://streak-stats.demolab.com?user=chele-s&theme=dark&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
+</a>
 
 <br/><br/>
 
-<!-- Trophy Collection -->
-<img src="https://github-profile-trophy.vercel.app/?username=chele-s&theme=onestar&no-frame=true&no-bg=true&row=1&column=7&margin-w=15" alt="Trophies"/>
+<!-- Trophy Collection - Using algolia theme which is always available -->
+<a href="https://github.com/chele-s">
+  <img src="https://github-profile-trophy.vercel.app/?username=chele-s&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15" alt="Trophies"/>
+</a>
 
 <br/><br/>
 
 <!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=chele-s&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb" width="95%" alt="Activity Graph"/>
+<a href="https://github.com/chele-s">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=chele-s&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=1f6feb&point=58a6ff&area=true&area_color=1f6feb" width="95%" alt="Activity Graph"/>
+</a>
 
 </div>
 
@@ -420,11 +430,19 @@ class ExtendedKalmanFilter:
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/chele-s/chele-s/output/snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/chele-s/chele-s/output/snake.svg" />
-  <img alt="GitHub Contribution Graph" src="https://raw.githubusercontent.com/chele-s/chele-s/output/snake.svg" />
-</picture>
+<!-- 3D Contribution Calendar - No GitHub Actions required -->
+<a href="https://github.com/chele-s">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=chele-s&theme=github_dark" width="95%" alt="Contribution Graph"/>
+</a>
+
+<br/>
+
+<a href="https://github.com/chele-s">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=chele-s&theme=github_dark&utcOffset=-6" width="45%" alt="Productive Time"/>
+</a>
+<a href="https://github.com/chele-s">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=chele-s&theme=github_dark" width="45%" alt="Repos per Language"/>
+</a>
 
 </div>
 
