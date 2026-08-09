@@ -391,26 +391,26 @@ class ExtendedKalmanFilter:
 
 <br/>
 
-<!-- GitHub Stats Grid - Using stable anuraghazra vercel instance -->
+<!-- GitHub Stats Grid -->
 <a href="https://github.com/chele-s">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=chele-s&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" height="180" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats-salesp07.vercel.app/api?username=chele-s&show_icons=true&theme=dark&hide_border=true&include_all_commits=true&count_private=true&bg_color=0d1117&title_color=58a6ff&icon_color=1f6feb&text_color=c9d1d9" height="180" alt="GitHub Stats"/>
 </a>
 <a href="https://github.com/chele-s">
-  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=chele-s&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+  <img src="https://github-readme-stats-salesp07.vercel.app/api/top-langs/?username=chele-s&layout=compact&theme=dark&hide_border=true&langs_count=8&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
 </a>
 
 <br/><br/>
 
-<!-- Streak Stats - Using streak-stats.demolab.com which is more reliable -->
+<!-- Streak Stats -->
 <a href="https://github.com/chele-s">
   <img src="https://streak-stats.demolab.com?user=chele-s&theme=dark&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakLabel=58a6ff&sideLabels=c9d1d9&dates=8b949e" alt="GitHub Streak"/>
 </a>
 
 <br/><br/>
 
-<!-- Trophy Collection - Using algolia theme which is always available -->
+<!-- Trophy Collection -->
 <a href="https://github.com/chele-s">
-  <img src="https://github-profile-trophy.vercel.app/?username=chele-s&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15" alt="Trophies"/>
+  <img src="https://github-trophies.vercel.app/?username=chele-s&theme=algolia&no-frame=true&no-bg=true&row=1&column=7&margin-w=15" alt="Trophies"/>
 </a>
 
 <br/><br/>
